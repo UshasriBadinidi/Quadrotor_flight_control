@@ -124,7 +124,7 @@ async def run():
 	########################################################################
 	# If executing takeoff task, set takeoff_task to True. Otherwise False
 	########################################################################
-	takeoff_task = False
+	takeoff_task = True
 
 	if takeoff_task:
 		goal = (0.0, 0.0, 10.0)
